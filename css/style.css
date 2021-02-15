@@ -6,6 +6,11 @@ light orange : #f2671f
 second orange: #c91b26
 magenta :9c0F5F
 */
+
+#my_work{
+  background-color: #ffffff ;
+  color: #9c0f5f;
+}
 body {
   font-family: "Nunito", sans-serif;
   color: #160a47;
@@ -36,7 +41,7 @@ h3 {
 }
 a {
   color: blue;
-  text-decoration: none; /
+  text-decoration: none; 
 }
 a:hover,
 a:focus {
@@ -53,12 +58,56 @@ a:active {
   font-weight: 800;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #9c0f5f; 
+  border-top: 2px solid #9c0f5f; 
   transition: 0.2s opacity;
 }
 .button:active,
 .button:hover {
-  opacity: 0.65; 
+  opacity: 0.85; 
   color: #ffffff;
   text-decoration-line: none;
+}
+
+.button.contact{
+  background-color: white;
+  color: #60047a;
+  border: 2px solid #60047a;
+}
+.button.contact:hover {
+  background-color: #c91b26;
+  color: #ffffff;
+}
+
+#header_logo{
+  width: max-content ;
+}
+#contact{
+  background-color: #ffffff;
+  color:#c91b26;
+}
+#behance{width: auto;}
+#contact p{
+
+  color:#160a47;
+}
+#behance{width: auto;}
+
+
+body{
+  background-color: #160a47;
+  color: #ffffff;
+}
+nav a{
+  color: #ffffff;
+}
+#hero h1{
+  max-width: 980px;
+}
+#meet_angus{
+  background-color: #ffffff;
+  color: #9c0f5f;
+}
+#skills_tools{
+  background-color: #160A47;
+  color: #ffffff;
 }

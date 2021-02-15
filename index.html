@@ -1,89 +1,132 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8" />
-        <title>Angus Barclay UX Design NYC</title>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <header>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Angus Barclay UX Design NYC</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          id="header_logo"
+          src="https://via.placeholder.com/150x50"
+          alt="my logo"
+        />
+        <nav>
+          <ul id="nav_list">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="hero">
+        <div>
+          <h1>
+            My name is Angus Barclay
+            <span
+              >I love solving problem and making tech easier on us all.</span
+            >
+          </h1>
+          <p>I approach my designs with the user in mind.</p>
+        </div>
+      </div>
+      <div id="my_work">
+        <div>
+          <h2>My Work</h2>
+          <div>
             <div>
-                <img src="https://via.placeholder.com/150x50" alt="my logo" />
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div>
-                <div>
-                    <h1>My name is Angus Barclay <span>I love solving problem and making tech easier on us all.</span></h1>
-                    <p>I approach my designs with the user in mind.</p>
-                </div>
+              <picture>
+                <source
+                  srcset="
+                    img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img\project_1_ink_tank\project_image\ink_tank_project_desktop.jpg"
+                  alt="InkTank Logo"
+                />
+              </picture>
             </div>
             <div>
-                <div>
-                    <h2>My Work</h2>
-                    <div>
-                        <div>
-                            <picture>
-                                <source srcset="img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg" media="(max-width:767px)" />
-                                <img src="img\project_1_ink_tank\project_image\ink_tank_project_desktop.jpg" alt="InkTank Logo" />
-                            </picture>
-                        </div>
-                        <div>
-                            <h3>InkTank</h3>
-                            <p>InkTank is helping solve some of Tattoo's biggest problems.</p>
-                            <a href="inktank.html" class="button">Read More</a>
-                        </div>
-                    </div>
-                </div>
+              <h3>InkTank</h3>
+              <p>InkTank is helping solve some of Tattoo's biggest problems.</p>
+              <a href="inktank.html" class="button">Read More</a>
             </div>
-        </main>
-        <footer id="contact">
-            <div>
-                <h2>Get In Touch With Me!</h2>
-                <p>
-                    I am based in New York, and open to full time and freelance employment.Call: <a href="tel:+16312120634"> +1 6312120634 </a> or skype me at <a href="skype:live:.cid.b0e92ce204253e31">angusmb@protonmail.com</a> Prefer
-                    sending an email?
-                </p>
-                <div>
-                    <a href="mailto:a.barclaydesigns@protonmail.com">email me</a>
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/angus-barclay-407a791a8/" target="_blank">
-                        <svg
-                            height="5%"
-                            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;"
-                            version="1.1"
-                            viewbox="0 0 512 512"
-                            width="5%"
-                            xml:space="preserve"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:serif="http://www.serif.com/"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                        >
-                            <path
-                                d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"
-                            />
-                        </svg>
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.behance.net/angusbarclay2" target="_blank">
-                        <img src="https://via.placeholder.com/32x32" alt="behance"/>
-                    </a>
-                </div>
-                <p>Copyright Angus Barclay 2021</p>
-            </div>
-        </footer>
-    </body>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="contact">
+      <div>
+        <h2>Get In Touch With Me!</h2>
+        <p>
+          I am based in New York, and open to full time and freelance
+          employment.Call: <a href="tel:+16312120634"> +1 6312120634 </a> or
+          skype me at
+          <a href="skype:live:.cid.b0e92ce204253e31">angusmb@protonmail.com</a>
+          Prefer sending an email?
+        </p>
+        <div>
+          <a
+            href="mailto:a.barclaydesigns@protonmail.com"
+            class="button contact"
+            >email me</a
+          >
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/angus-barclay-407a791a8/"
+            target="_blank"
+          >
+            <svg
+              height="5%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewbox="0 0 512 512"
+              width="5%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:serif="http://www.serif.com/"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.behance.net/angusbarclay2" target="_blank">
+            <img
+              id="behance"
+              src="https://via.placeholder.com/32x32"
+              alt="behance"
+            />
+          </a>
+        </div>
+        <p>Copyright Angus Barclay 2021</p>
+      </div>
+    </footer>
+  </body>
 </html>
