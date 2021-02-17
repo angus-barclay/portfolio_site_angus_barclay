@@ -6,10 +6,14 @@ light orange : #f2671f
 second orange: #c91b26
 magenta :9c0F5F
 */
+* {
+  box-sizing: border-box;
+}
 
-#my_work{
-  background-color: #ffffff ;
-  color: #9c0f5f;
+#meet_angus p, h2 {padding: 10px;}
+#my_work {
+  background-color: #ffffff;
+  color: #160a47;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -41,34 +45,35 @@ h3 {
 }
 a {
   color: blue;
-  text-decoration: none; 
+  text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #f2671f;
-  text-decoration: underline;
+  color: #160a47;
+  font-weight: 300;
+  font-size: 19px;
 }
 a:active {
   color: #f2671f;
 }
 .button {
-  display: inline-block; 
+  display: inline-block;
   background-color: #60047a;
-  color: #ffffff; 
+  color: #ffffff;
   font-weight: 800;
   padding: 10px;
   border-radius: 3px;
-  border-top: 2px solid #9c0f5f; 
+  border-top: 2px solid #9c0f5f;
   transition: 0.2s opacity;
 }
 .button:active,
 .button:hover {
-  opacity: 0.85; 
+  opacity: 0.85;
   color: #ffffff;
   text-decoration-line: none;
 }
 
-.button.contact{
+.button.contact {
   background-color: white;
   color: #60047a;
   border: 2px solid #60047a;
@@ -78,36 +83,53 @@ a:active {
   color: #ffffff;
 }
 
-#header_logo{
-  width: max-content ;
+#header_logo {
+  width: max-content;
 }
-#contact{
+#contact {
   background-color: #ffffff;
-  color:#c91b26;
+  color: #c91b26;
 }
-#behance{width: auto;}
-#contact p{
-
-  color:#160a47;
+#behance {
+  width: auto;
 }
-#behance{width: auto;}
+#contact p {
+  color: #160a47;
+}
+#behance {
+  width: auto;
+}
 
-
-body{
+body {
   background-color: #160a47;
   color: #ffffff;
 }
-nav a{
+nav a {
   color: #ffffff;
 }
-#hero h1{
+#hero h1 {
   max-width: 980px;
 }
-#meet_angus{
+#meet_angus {
   background-color: #ffffff;
   color: #9c0f5f;
 }
-#skills_tools{
-  background-color: #160A47;
+#skills_tools {
+  background-color: #160a47;
   color: #ffffff;
 }
+header{
+  background-color: #9c0f5f;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px dashed #f2671f;
+  
+}
+nav ul{list-style-type: none;}
+/* Layout styling */
+.container {padding: 0 15px;}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work_h2{padding-top: 15px;}

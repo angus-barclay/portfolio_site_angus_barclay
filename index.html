@@ -18,7 +18,7 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="container">
         <img
           id="header_logo"
           src="https://via.placeholder.com/150x50"
@@ -35,45 +35,62 @@
     </header>
     <main>
       <div id="hero">
-        <div>
+        <div class="container">
           <h1>
             My name is Angus Barclay
-            <span
-              >I love solving problem and making tech easier on us all.</span
-            >
+            <span>and I am here to help.</span>
           </h1>
-          <p>I approach my designs with the user in mind.</p>
+          <p id="hero_p">
+            I'm a UX designer trying to make the world a more usable place.
+          </p>
         </div>
       </div>
       <div id="my_work">
-        <div>
-          <h2>My Work</h2>
+        <div class="container">
+          <h2 id="work_h2">My Work</h2>
+          <div class="row">
+            <h3>InkTank</h3>
+            <p>InkTank is helping solve some of Tattoo's biggest problems.</p>
+            <a href="inktank.html" class="button">Read More</a>
+          </div>
           <div>
-            <div>
-              <picture>
-                <source
-                  srcset="
-                    img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg
-                  "
-                  media="(max-width:767px)"
-                />
-                <img
-                  src="img\project_1_ink_tank\project_image\ink_tank_project_desktop.jpg"
-                  alt="InkTank Logo"
-                />
-              </picture>
+            <picture>
+              <source
+                srcset="
+                  img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img\project_1_ink_tank\project_image\ink_tank_project_desktop.jpg"
+                alt="InkTank Logo"
+              />
+            </picture>
+            <div class="row">
+              <h3>Quick Study</h3>
+              <p>Lorem Ipsum</p>
+              <a href="#" class="button">Read More</a>
             </div>
-            <div>
-              <h3>InkTank</h3>
-              <p>InkTank is helping solve some of Tattoo's biggest problems.</p>
-              <a href="inktank.html" class="button">Read More</a>
-            </div>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="
+                  img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="https://via.placeholder.com/600X400"
+                alt="InkTank Logo"
+              />
+            </picture>
           </div>
         </div>
       </div>
     </main>
     <footer id="contact">
-      <div>
+      <div class="container">
         <h2>Get In Touch With Me!</h2>
         <p>
           I am based in New York, and open to full time and freelance
