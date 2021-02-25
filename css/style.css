@@ -10,7 +10,10 @@ magenta :9c0F5F
   box-sizing: border-box;
 }
 
-#meet_angus p, h2 {padding: 10px;}
+#meet_angus p,
+h2 {
+  padding: 10px;
+}
 #my_work {
   background-color: #ffffff;
   color: #160a47;
@@ -118,18 +121,23 @@ nav a {
   background-color: #160a47;
   color: #ffffff;
 }
-header{
+header {
   background-color: #9c0f5f;
   padding: 10px;
   margin: 10px;
   border-bottom: 3px dashed #f2671f;
-  
 }
-nav ul{list-style-type: none;}
+nav ul {
+  list-style-type: none;
+}
 /* Layout styling */
-.container {padding: 0 15px;}
+.container {
+  padding: 0 15px;
+}
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
-#work_h2{padding-top: 15px;}
+#work_h2 {
+  padding-top: 15px;
+}
