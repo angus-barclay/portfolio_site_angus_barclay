@@ -86,58 +86,79 @@ a:active {
   color: #ffffff;
 }
 
-#header_logo {
-  width: max-content;
+.logo{
+  width: 250px;
 }
 #contact {
   background-color: #ffffff;
   color: #c91b26;
 }
 #behance {
-  width: auto;
+  width: 25px;
 }
 #contact p {
   color: #160a47;
 }
-#behance {
-  width: auto;
-}
-
 body {
   background-color: #160a47;
   color: #ffffff;
 }
-nav a {
-  color: #ffffff;
-}
+
 #hero h1 {
-  max-width: 980px;
+  text-align: center;
 }
-#meet_angus {
-  background-color: #ffffff;
-  color: #9c0f5f;
-}
-#skills_tools {
-  background-color: #160a47;
-  color: #ffffff;
-}
+
 header {
   background-color: #9c0f5f;
   padding: 10px;
   margin: 10px;
-  border-bottom: 3px dashed #f2671f;
+  border-bottom: 1px ridge #60047A;
+  text-align: center;
 }
-nav ul {
+nav > ul {
   list-style-type: none;
+  padding: 0;
 }
-/* Layout styling */
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #160a47;
+}
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #d7cff9;
+  opacity: 80%;
+}
+nav > ul > li > a:active
+{
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #F2671F;
+}
+
 .container {
   padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
 }
 #work_h2 {
   padding-top: 15px;
 }
+
+#linked_in_icon{width: 25px;}

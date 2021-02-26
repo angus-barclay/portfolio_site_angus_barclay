@@ -20,8 +20,8 @@
     <header>
       <div class="container">
         <img
-          id="header_logo"
-          src="https://via.placeholder.com/150x50"
+          class="logo"
+          src="img\logo.png"
           alt="my logo"
         />
         <nav>
@@ -51,9 +51,6 @@
           <div class="row">
             <h3>InkTank</h3>
             <p>InkTank is helping solve some of Tattoo's biggest problems.</p>
-            <a href="inktank.html" class="button">Read More</a>
-          </div>
-          <div>
             <picture>
               <source
                 srcset="
@@ -66,25 +63,34 @@
                 alt="InkTank Logo"
               />
             </picture>
-            <div class="row">
-              <h3>Quick Study</h3>
-              <p>Lorem Ipsum</p>
-              <a href="#" class="button">Read More</a>
+            <div class="read_more_in">
+              <a href="inktank.html" class="button">Read More</a>
             </div>
           </div>
           <div>
-            <picture>
-              <source
-                srcset="
-                  img\project_1_ink_tank\project_image\ink_tank_project_mobile.jpg
-                "
-                media="(max-width:767px)"
-              />
-              <img
-                src="https://via.placeholder.com/600X400"
-                alt="InkTank Logo"
-              />
-            </picture>
+            <div class="row">
+              <h3>Quick Study</h3>
+              <p>A better studying experience.</p>
+
+              <div>
+                <picture>
+                  <source
+                    srcset="
+                      img\project_2_quick_study\optimized_images\quik_Study_home_mobile.jpg
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img\project_2_quick_study\optimized_images\quik_Study_home_desktop.jpg"
+                    alt="InkTank Logo"
+                  />
+                </picture>
+              </div>
+              <div class="read_more_qs">
+                <a href="#" class="button">Coming Soon</a>
+              </div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
@@ -106,41 +112,44 @@
             >email me</a
           >
         </div>
-        <div>
-          <a
-            href="https://www.linkedin.com/in/angus-barclay-407a791a8/"
-            target="_blank"
-          >
-            <svg
-              height="5%"
-              style="
-                fill-rule: evenodd;
-                clip-rule: evenodd;
-                stroke-linejoin: round;
-                stroke-miterlimit: 2;
-              "
-              version="1.1"
-              viewbox="0 0 512 512"
-              width="5%"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:serif="http://www.serif.com/"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+        <div id="socials">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/angus-barclay-407a791a8/"
+              target="_blank"
             >
-              <path
-                d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"
+              <svg
+                id="linked_in_icon"
+                height="5%"
+                style="
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  stroke-linejoin: round;
+                  stroke-miterlimit: 2;
+                "
+                version="1.1"
+                viewbox="0 0 512 512"
+                width="5%"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:serif="http://www.serif.com/"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.behance.net/angusbarclay2" target="_blank">
+              <img
+                id="behance"
+                src="https://via.placeholder.com/32x32"
+                alt="behance"
               />
-            </svg>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.behance.net/angusbarclay2" target="_blank">
-            <img
-              id="behance"
-              src="https://via.placeholder.com/32x32"
-              alt="behance"
-            />
-          </a>
+            </a>
+          </div>
         </div>
         <p>Copyright Angus Barclay 2021</p>
       </div>
