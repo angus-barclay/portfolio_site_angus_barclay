@@ -129,11 +129,9 @@ header {
   position: fixed;
   width: 100%;
 }
-ul{
+ul {
   list-style: none;
   display: inline;
-  
-  
 }
 
 nav > ul {
@@ -218,7 +216,8 @@ nav > ul > li > a:active {
 }
 
 #socials > li {
-  display: inline-block;
+  display: inline;
+  list-style: none;
 }
 
 .row::after {
@@ -226,6 +225,39 @@ nav > ul > li > a:active {
   clear: both;
   display: table;
 }
+
+@keyframes color-change {
+  from {
+    fill: #6c284e;
+  }
+  to {
+    fill: #a51065;
+  }
+}
+
+#front_skyline {
+  animation: 5s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(250px,30px);}
+}
+
+#back_clouds {
+  animation: 50s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+#front_clouds {
+  animation: 50s cloud-move-reverse infinite alternate linear;
+}
+
+
 
 @media only screen and (min-width: 640px) {
   header {
@@ -238,7 +270,7 @@ nav > ul > li > a:active {
     margin-top: 15px;
   }
   main {
-    padding-top: 99px;
+    padding-top: 105px;
   }
   body {
     font-size: 18px;
@@ -270,4 +302,28 @@ nav > ul > li > a:active {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.button {
+  display: inline-block;
+  background-color: #60047a;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8;
+  background-color: #60047a;
+}
+
+.ink_tank {
+  padding-top: 99px;
+}
+
+.social_icons {
+  padding-top: 20px;
 }
