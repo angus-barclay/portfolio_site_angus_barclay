@@ -35,7 +35,6 @@ h1 {
 
 .about {
   color: #160a47;
-  
 }
 h2 {
   font-size: 1.8em;
@@ -98,13 +97,13 @@ a:active {
 #contact p {
   color: #160a47;
 }
-main{padding-top: 140px;}
+
 .my_work {
   background-color: #ffffff;
 }
 #hero {
   background-color: #9c0f5f;
-  
+
   display: inline-block;
   width: 100%;
   color: #ffffff;
@@ -238,8 +237,12 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(250px,30px);}
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(250px, 30px);
+  }
 }
 
 #back_clouds {
@@ -247,25 +250,28 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 #front_clouds {
   animation: 50s cloud-move-reverse infinite alternate linear;
 }
 
-
-
 @media only screen and (min-width: 640px) {
+  #hero{
+    padding-top: 140px;
+  }
   header {
     text-align: unset;
-    
   }
   nav {
     width: auto;
     float: right;
-    
   }
 
   body {
@@ -291,8 +297,15 @@ nav > ul > li > a:active {
 
 @media only screen and (min-width: 1024px) {
 }
+ #hero{
+    padding-top: 115px;
+  }
 
 @media only screen and (min-width: 1440px) {
+   #hero{
+    padding-top: 115px;
+  }
+  
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -315,7 +328,6 @@ nav > ul > li > a:active {
   opacity: 0.8;
   background-color: #60047a;
 }
-
 
 .social_icons {
   padding-top: 20px;
