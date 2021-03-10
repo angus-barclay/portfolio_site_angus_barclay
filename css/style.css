@@ -18,7 +18,6 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
-
 img {
   width: 100%;
 }
@@ -36,6 +35,7 @@ h1 {
 
 .about {
   color: #160a47;
+  padding-top: 30px;
 }
 h2 {
   font-size: 1.8em;
@@ -98,13 +98,15 @@ a:active {
 #contact p {
   color: #160a47;
 }
-
+main {
+  padding-top: 140px;
+}
 .my_work {
   background-color: #ffffff;
 }
 #hero {
   background-color: #9c0f5f;
-  padding-top: 140px;
+  padding: 20px 0;
   display: inline-block;
   width: 100%;
   color: #ffffff;
@@ -127,19 +129,17 @@ header {
   position: fixed;
   width: 100%;
 }
-ul{
+ul {
   list-style: none;
   display: inline;
-  
-  
 }
 
 nav > ul {
   list-style-type: none;
+  padding: 0;
 }
 nav > ul > li {
   display: inline-block;
-
 }
 
 nav > ul > li > a {
@@ -170,7 +170,7 @@ nav > ul > li > a:active {
 }
 
 .container {
-  padding: 0 15px;
+  padding: 15px;
 }
 
 .row {
@@ -216,7 +216,8 @@ nav > ul > li > a:active {
 }
 
 #socials > li {
-  display: inline-block;
+  display: inline;
+  list-style: none;
 }
 
 .row::after {
@@ -225,10 +226,6 @@ nav > ul > li > a:active {
   display: table;
 }
 
-<<<<<<< HEAD
-#about{
-  padding-top: 140px;
-}
 @keyframes color-change {
   from {
     fill: #6c284e;
@@ -243,12 +240,8 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(250px, 30px);
-  }
+  from {transform: translate(0,50px);}
+  to {transform: translate(250px,30px);}
 }
 
 #back_clouds {
@@ -256,12 +249,8 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
 }
 
 #front_clouds {
@@ -269,30 +258,20 @@ nav > ul > li > a:active {
 }
 
 
-=======
->>>>>>> parent of b66c848 (css animation)
+
 @media only screen and (min-width: 640px) {
-  #hero {
-    padding-top: 115px;
-  }
-  #about{
-  padding-top: 115px;
-}
   header {
     text-align: unset;
+    padding: 25px 0 20px;
   }
   nav {
     width: auto;
     float: right;
-<<<<<<< HEAD
-=======
     margin-top: 15px;
   }
   main {
-    padding-top: 99px;
->>>>>>> parent of b66c848 (css animation)
+    padding-top: 105px;
   }
-
   body {
     font-size: 18px;
   }
@@ -315,23 +294,15 @@ nav > ul > li > a:active {
 }
 
 @media only screen and (min-width: 1024px) {
-  #hero {
-    padding-top: 115px;
-  }
 }
 
 @media only screen and (min-width: 1440px) {
-  #hero {
-    padding-top: 115px;
-  }
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-<<<<<<< HEAD
 
 .button {
   display: inline-block;
@@ -349,8 +320,10 @@ nav > ul > li > a:active {
   background-color: #60047a;
 }
 
+.ink_tank {
+  padding-top: 99px;
+}
+
 .social_icons {
   padding-top: 20px;
 }
-=======
->>>>>>> parent of b66c848 (css animation)
