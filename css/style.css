@@ -127,9 +127,11 @@ header {
   position: fixed;
   width: 100%;
 }
-ul {
+ul{
   list-style: none;
   display: inline;
+  
+  
 }
 
 nav > ul {
@@ -214,8 +216,7 @@ nav > ul > li > a:active {
 }
 
 #socials > li {
-  display: inline;
-  list-style: none;
+  display: inline-block;
 }
 
 .row::after {
@@ -224,6 +225,7 @@ nav > ul > li > a:active {
   display: table;
 }
 
+<<<<<<< HEAD
 #about{
   padding-top: 140px;
 }
@@ -267,6 +269,8 @@ nav > ul > li > a:active {
 }
 
 
+=======
+>>>>>>> parent of b66c848 (css animation)
 @media only screen and (min-width: 640px) {
   #hero {
     padding-top: 115px;
@@ -280,6 +284,13 @@ nav > ul > li > a:active {
   nav {
     width: auto;
     float: right;
+<<<<<<< HEAD
+=======
+    margin-top: 15px;
+  }
+  main {
+    padding-top: 99px;
+>>>>>>> parent of b66c848 (css animation)
   }
 
   body {
@@ -320,6 +331,7 @@ nav > ul > li > a:active {
     margin-right: auto;
   }
 }
+<<<<<<< HEAD
 
 .button {
   display: inline-block;
@@ -340,3 +352,5 @@ nav > ul > li > a:active {
 .social_icons {
   padding-top: 20px;
 }
+=======
+>>>>>>> parent of b66c848 (css animation)
