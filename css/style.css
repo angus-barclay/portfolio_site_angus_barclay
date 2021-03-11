@@ -137,17 +137,14 @@ header {
 }
 ul {
   list-style: none;
-  display: inline;
+  
 }
-nav{
-  overflow:visible;
-}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 0px;
-  overflow: hidden;
-}
+  margin: 0px;}
+  
 
 
 nav > ul > li > a {
