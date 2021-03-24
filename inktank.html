@@ -2,10 +2,8 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InkTank Case Study</title>
+    <meta charset="utf-8" />
+    <title>InkTank</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -21,14 +19,17 @@
   <body>
     <header>
       <div class="container">
-        <img class="logo" src="img\logo.png" alt="my logo" />
-        <nav>
+        <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/logo.png" alt="my logo" />
+        <nav >
           <ul id="nav_list">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="responsive"><a href="index.html">Work</a></li>
+            <li class="responsive"><a href="about.html">About</a></li>
+            <li class="responsive"><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon " onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -41,20 +42,19 @@
             <source
               srcset="img/project_1_ink_tank/overview/overview_mobile.jpg"
               media="(max-width:767px)"
-              alt="The mission, role and tools"
             />
             <img
               src="img/project_1_ink_tank/overview/overview_desktop.jpg"
               alt="the mission, role and"
             />
-            <div>
-              <p>
-                InkTank is a mobile application I designed with the tattoo
-                community in mind. I produced this over six months as a way for
-                me to sharpen my UX skills and prowess.
-              </p>
-            </div>
           </picture>
+          <div>
+            <p>
+              InkTank is a mobile application I designed with the tattoo
+              community in mind. I produced this over six months as a way for me
+              to sharpen my UX skills and prowess.
+            </p>
+          </div>
         </div>
         <div>
           <h2>Competetive Analsyis</h2>
@@ -63,10 +63,9 @@
           <picture>
             <source
               srcset="
-                img\project_1_ink_tank\comp_analysis\comp_analysis_mobile.png
+                img/project_1_ink_tank/comp_analysis/comp_analysis_mobile.png
               "
               media="(max-width:767px)"
-              alt="a breakdown of my competetive analysis of InkHunter"
             />
             <img
               src="img/project_1_ink_tank/comp_analysis/comp_analysis_desktop.png"
@@ -80,7 +79,7 @@
             use their smartphone to preview what a tattoo design would look like
             on their skin. To view a complete competetive analysis, click
             <span><a href="#">here</a></span>
-            <!- add a complete comp analysis-->
+            <!--add a complete comp analysis-->
           </p>
         </div>
 
@@ -89,28 +88,27 @@
         </div>
         <picture>
           <source
-            srcset="img\project_1_ink_tank\personas\personas_mobile.jpg"
+            srcset="img/project_1_ink_tank/personas/personas_mobile.jpg"
             media="(max-width:767px)"
-            alt="a breakdown of my competetive analysis of InkHunter"
           />
           <img
-            src="img\project_1_ink_tank\personas\personas_desktop.jpg"
+            src="img/project_1_ink_tank/personas/personas_desktop.jpg"
             alt="a breakdown of my competetive analysis of InkHunter"
           />
-          <div>
-            <p>
-              When designing an experience, it's imperative to think about
-              context. That's why I created user personas based on real-world
-              data. These are imaginary people with traits and attitudes from
-              real people. And not just any people! I researched tattoo artists,
-              tattoo enthusiasts, and casuals. I was now able to create personas
-              that InkTank would be designed for. You will meet Janice, who is
-              going to be the example for this case study. When I got stuck or
-              was second-guessing myself, I asked, "What would Janice want? What
-              would she think about this"?
-            </p>
-          </div>
         </picture>
+        <div>
+          <p>
+            When designing an experience, it's imperative to think about
+            context. That's why I created user personas based on real-world
+            data. These are imaginary people with traits and attitudes from real
+            people. And not just any people! I researched tattoo artists, tattoo
+            enthusiasts, and casuals. I was now able to create personas that
+            InkTank would be designed for. You will meet Janice, who is going to
+            be the example for this case study. When I got stuck or was
+            second-guessing myself, I asked, "What would Janice want? What would
+            she think about this"?
+          </p>
+        </div>
         <div>
           <h2>The Big Problem</h2>
         </div>
@@ -139,22 +137,21 @@
         <div>
           <picture>
             <source
-              srcset="img\project_1_ink_tank\sitemap\sitemap_mobile.jpg"
+              srcset="img/project_1_ink_tank/sitemap/sitemap_mobile.jpg"
               media="(max-width:767px)"
-              alt="a sitemap, organizing every one of inktanks screens"
             />
             <img
-              src="img\project_1_ink_tank\sitemap\sitemap_desktop.jpg"
+              src="img/project_1_ink_tank/sitemap/sitemap_desktop.jpg"
               alt="a sitemap, organizing every one of inktanks screens"
             />
-            <div>
-              <p>
-                I created a sitemap to help me understand how users would
-                navigate InkTank. This also helps serve as the basis for the
-                user flows, which you'll see next.
-              </p>
-            </div>
           </picture>
+          <div>
+            <p>
+              I created a sitemap to help me understand how users would navigate
+              InkTank. This also helps serve as the basis for the user flows,
+              which you'll see next.
+            </p>
+          </div>
         </div>
         <div>
           <h2>User Flows</h2>
@@ -162,22 +159,21 @@
         <div>
           <picture>
             <source
-              srcset="img\project_1_ink_tank\user_flow\user_flow_mobile.jpg"
+              srcset="img/project_1_ink_tank/user_flow/user_flow_mobile.jpg"
               media="(max-width:767px)"
-              alt="An illustration of Janice's flow for finding an artist"
             />
             <img
-              src="img\project_1_ink_tank\user_flow\user_flow_desktop.jpg"
+              src="img/project_1_ink_tank/user_flow/user_flow_desktop.jpg"
               alt="An illustration of Janice's flow for finding an artist"
             />
-            <div>
-              <p>
-                As a first-time customer, Janice wants to find an artist that
-                will make her comfortable and do a good job, so she can be
-                confident in her first tattoo.
-              </p>
-            </div>
           </picture>
+          <div>
+            <p>
+              As a first-time customer, Janice wants to find an artist that will
+              make her comfortable and do a good job, so she can be confident in
+              her first tattoo.
+            </p>
+          </div>
         </div>
         <div>
           <h2>Low Fidelity Wireframes</h2>
@@ -186,26 +182,25 @@
           <picture>
             <source
               srcset="
-                img\project_1_ink_tank\low_fidelity\low_fidelity_mobile.jpg
+                img/project_1_ink_tank/low_fidelity/low_fidelity_mobile.jpg
               "
               media="(max-width:767px)"
-              alt="A preview of some of my low quality wireframes for inktank"
             />
             <img
-              src="img\project_1_ink_tank\low_fidelity\low_fidelity_desktop.jpg"
+              src="img/project_1_ink_tank/low_fidelity/low_fidelity_desktop.jpg"
               alt="A preview of some of my low quality wireframes for inktank"
             />
-            <div>
-              <p>
-                Janice's user persona and task flow help guide the design
-                process and prioritize features as well. Designing with someone
-                in mind is crucial to success and efficiency during the process.
-                The first version of the home page had a suggested artist for
-                the user upon opening the app. For a few reasons, I redesigned
-                this completely in later iterations.
-              </p>
-            </div>
           </picture>
+          <div>
+            <p>
+              Janice's user persona and task flow help guide the design process
+              and prioritize features as well. Designing with someone in mind is
+              crucial to success and efficiency during the process. The first
+              version of the home page had a suggested artist for the user upon
+              opening the app. For a few reasons, I redesigned this completely
+              in later iterations.
+            </p>
+          </div>
         </div>
         <div>
           <h2>Medium Fidelity Wireframes</h2>
@@ -214,25 +209,24 @@
           <picture>
             <source
               srcset="
-                img\project_1_ink_tank\medium_fidelity\mid_fidelity_mobile.jpg
+                img/project_1_ink_tank/medium_fidelity/mid_fidelity_mobile.jpg
               "
               media="(max-width:767px)"
-              alt="A preview of some of my low quality wireframes for inktank"
             />
             <img
-              src="img\project_1_ink_tank\medium_fidelity\mid_fidelity_desktop.jpg"
+              src="img/project_1_ink_tank/medium_fidelity/mid_fidelity_desktop.jpg"
               alt="A preview of some of my low quality wireframes for inktank"
             />
-            <div>
-              <p>
-                I redesigned the home page to feature a feed of tattoo content
-                from other users. I wanted users to have the power to sort by
-                people and artists they follow, by local artists and posts, or
-                suggested content. I initially was using a red, white, and grey
-                scheme for simplicity and visibility.
-              </p>
-            </div>
           </picture>
+          <div>
+            <p>
+              I redesigned the home page to feature a feed of tattoo content
+              from other users. I wanted users to have the power to sort by
+              people and artists they follow, by local artists and posts, or
+              suggested content. I initially was using a red, white, and grey
+              scheme for simplicity and visibility.
+            </p>
+          </div>
         </div>
         <div>
           <h2>User Testing</h2>
@@ -240,12 +234,11 @@
         <div>
           <picture>
             <source
-              srcset="img\project_1_ink_tank\testing\testing_design_mobile.jpg"
+              srcset="img/project_1_ink_tank/testing/testing_design_mobile.jpg"
               media="(max-width:767px)"
-              alt="The Design Thinking Process Infographic"
             />
             <img
-              src="img\project_1_ink_tank\testing\testing_design_desktop.jpg"
+              src="img/project_1_ink_tank/testing/testing_design_desktop.jpg"
               alt="The Design Thinking Process Infographic"
             />
           </picture>
@@ -292,13 +285,12 @@
           <picture>
             <source
               srcset="
-                img\project_1_ink_tank\testing\pref\side_by_side_preference_test_mobile.jpg
+                img/project_1_ink_tank/testing/pref/side_by_side_preference_test_mobile.jpg
               "
               media="(max-width:767px)"
-              alt="A side by side of two inktank screens, with different color schemes"
             />
             <img
-              src="img\project_1_ink_tank\testing\pref\side_by_side_preference_test_desktop.jpg"
+              src="img/project_1_ink_tank/testing/pref/side_by_side_preference_test_desktop.jpg"
               alt="A side by side of two inktank screens, with different color schemes"
             />
           </picture>
@@ -333,13 +325,12 @@
           <picture>
             <source
               srcset="
-                img\project_1_ink_tank\accessibility\accessibility_mobile.jpg
+                img/project_1_ink_tank/accessibility/accessibility_mobile.jpg
               "
               media="(max-width:767px)"
-              alt="An example of Accessibility guidelines applied to sign up and onboarding screens. The font has been made bigger and background color darkened for more contrast."
             />
             <img
-              src="img\project_1_ink_tank\accessibility\accessibility_desktop.jpg"
+              src="img/project_1_ink_tank/accessibility/accessibility_desktop.jpg"
               alt="An example of Accessibility guidelines applied to sign up and onboarding screens. The font has been made bigger and background color darkened for more contrast."
             />
           </picture>
@@ -357,14 +348,11 @@
         <div>
           <picture>
             <source
-              srcset="
-                img\project_1_ink_tank\final_mockup\final_mockup_mobile.jpg
-              "
+              srcset="img/project_1_ink_tank/final_mockup/final_mockup_mobile.jpg"
               media="(max-width:767px)"
-              alt="A preview of the final prototype."
             />
             <img
-              src="img\project_1_ink_tank\final_mockup\final_mockup_desktop.jpg"
+              src="img/project_1_ink_tank/final_mockup/final_mockup_desktop.jpg"
               alt="A preview of the final prototype."
             />
           </picture>
@@ -418,7 +406,6 @@
                   width="25px"
                   xml:space="preserve"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:serif="http://www.serif.com/"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -475,5 +462,8 @@
         <p>Copyright Angus Barclay 2021</p>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/64f8a2e236.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

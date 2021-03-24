@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+ <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <title>About</title>
@@ -19,14 +19,17 @@
   <body>
     <header>
       <div class="container">
-        <img class="logo" src="img\logo.png" alt="my logo" />
-        <nav>
+        <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/logo.png" alt="my logo" />
+        <nav >
           <ul id="nav_list">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="responsive"><a href="index.html">Work</a></li>
+            <li class="responsive"><a href="about.html">About</a></li>
+            <li class="responsive"><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon " onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -73,7 +76,7 @@
               >
             </div>
             <div class="row">
-              <h2>Skills and Tools</h2>
+              <h2 class="about">Skills and Tools</h2>
               <div class="col-md-6">
                 <h3>Relevant Skills</h3>
                 <ul>
@@ -144,7 +147,6 @@
                   width="25px"
                   xml:space="preserve"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:serif="http://www.serif.com/"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -201,5 +203,8 @@
         <p>Copyright Angus Barclay 2021</p>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/64f8a2e236.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

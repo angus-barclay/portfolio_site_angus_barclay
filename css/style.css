@@ -35,7 +35,7 @@ h1 {
 
 .about {
   color: #160a47;
-  padding-top: 30px;
+  margin: 0 auto;
 }
 h2 {
   font-size: 1.8em;
@@ -79,6 +79,8 @@ a:active {
   background-color: white;
   color: #60047a;
   border: 2px solid #60047a;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 .button.contact:hover {
   background-color: #c91b26;
@@ -100,69 +102,75 @@ a:active {
 }
 main {
   padding-top: 75.3906px;
+  margin: 0px 10px;
 }
 .my_work {
   background-color: #ffffff;
 }
 #hero {
-  background-color: #9c0f5f;
+  background-color: #160a47;
   padding-top: 0;
   display: inline-block;
   width: 100%;
   color: #ffffff;
   text-align: center;
 }
-footer h2{
+
+footer h2 {
   padding-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-block-start: 0px;
 }
-footer p{
+footer p {
   margin-bottom: 0px;
   padding-bottom: 15 px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
 #hero h1 {
   text-align: center;
+  color: #ffffff;
 }
 #hero span {
   display: block;
 }
 
 header {
-  background-color: #9c0f5f;
+  background-color: #ffffff;
   padding: 10px 5px 4px;
-  border-bottom: 3px dashed #ffffff;
-  
-  box-shadow: 0px 9px 9px 0px rgba(50, 50, 50, 0.45);
+
+  box-shadow: 0px 9px 9px 0px rgba(50, 50, 50, 0.35);
   position: fixed;
   width: 100%;
 }
 ul {
   list-style: none;
-  
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 0px;}
-  
-
+  margin: 0px;
+}
 
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #000;
 }
 nav > ul > li > a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #ffffff;
+  color: #000;
 }
 nav > ul > li > a:hover {
   padding: 0 15px;
   font-size: 16px;
-  color: #d7cff9;
+  color: #160a47;
   opacity: 80%;
   display: inline-block;
   font-weight: 900;
@@ -171,9 +179,9 @@ nav > ul > li > a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #f2671f;
-}
-.navtoggle.responsive li  {
+  color: #60047a;
+}g
+.navtoggle.responsive li {
   display: block;
 }
 .container {
@@ -181,13 +189,26 @@ nav > ul > li > a:active {
 }
 
 .row {
-  margin: 25px 0;
-  border-bottom: #160a47 2px solid;
-
+  border: 2px solid rgba(22, 10, 71, 0.4);
+  background-color: lightgrey;
   padding-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row p {
+  margin: 0 10px;
+}
+.row h3 {
+  margin: 0 10px;
 }
 #work_h2 {
   padding-top: 15px;
+  margin-block-start: 0px;
+  margin: 0 10px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #f2671f;
 }
 
 #linked_in_icon {
@@ -247,8 +268,12 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(250px,30px);}
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(250px, 30px);
+  }
 }
 
 #back_clouds {
@@ -256,8 +281,12 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 #front_clouds {
@@ -266,7 +295,8 @@ nav > ul > li > a:active {
 .navtoggle li:not(:last-child) {
   display: none;
 }
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 .navtoggle li .icon {
@@ -276,10 +306,11 @@ nav > ul > li > a:active {
   font-size: 20px;
   padding-right: 0;
 }
-.navtoggle.responsive li{
+.navtoggle.responsive li {
   display: block;
 }
 @media only screen and (min-width: 641px) {
+  .about{padding: 3px 10px;}
   header {
     text-align: unset;
     padding: 25px 0 20px;
@@ -289,20 +320,22 @@ nav > ul > li > a:active {
     float: right;
     margin-top: 25px;
   }
-  .logo{
-  min-width: 250px;
-}
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-nav > ul {
-  margin: 1em 0;
-}
+  .logo {
+    min-width: 250px;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
   main {
-    padding-top: 105px;
+    padding-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
   }
   body {
     font-size: 18px;
@@ -324,8 +357,8 @@ nav > ul {
     padding: 10px;
   }
   nav > ul > li {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -349,6 +382,7 @@ nav > ul {
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
+  margin: 10px;
 }
 .button:hover {
   opacity: 0.8;
@@ -356,7 +390,7 @@ nav > ul {
 }
 
 .ink_tank {
-  padding-top: 99px;
+  padding-top: height 72.3906px;
 }
 
 .social_icons {
